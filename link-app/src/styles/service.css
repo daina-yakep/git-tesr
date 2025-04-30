@@ -1,0 +1,39 @@
+.library-service-menu {
+    padding: 50px 20px;
+    background-color: #fefefe;
+    text-align: center;
+  }
+  
+  .library-service-menu h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .library-service-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .library-service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 220px;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .library-service-card:hover {
+    transform: translateY(-5px);
+    border-color: #005b96;
+  }
+  
+  .library-service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  

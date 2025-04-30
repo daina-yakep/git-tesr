@@ -1,0 +1,45 @@
+
+.lmj-logo{
+  width: 30px;
+  height: 40px;
+  margin-left: 1em;
+}
+
+.logo{
+    
+  text-decoration: none;
+  color: palevioletred;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 15em;
+
+}
+
+.head{
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  left: 0;
+  height: 70px;
+  width: 100%;
+}
+
+.ul{
+  display: flex;
+}
+
+.a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 30px;
+
+}
+
+.a:hover{
+  text-decoration: underline;
+  color: rgb(245, 5, 45);
+}
